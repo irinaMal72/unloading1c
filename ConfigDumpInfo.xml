@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.12">
+	<ConfigVersions>
+		<Metadata name="AccumulationRegister.Аренда" id="2896de65-6668-4130-9211-2e81fde3fd0f" configVersion="4694da1ec425e64785a03c2847c4689100000000">
+			<Metadata name="AccumulationRegister.Аренда.Dimension.Студент" id="134927c3-c52a-48dd-b9ca-f3a49c8f9003"/>
+			<Metadata name="AccumulationRegister.Аренда.Resource.Количество" id="39257ba0-0fa7-461a-bb20-081c8952f060"/>
+		</Metadata>
+		<Metadata name="AccumulationRegister.Остатки" id="4c18ddd3-9746-4347-a3b9-e5b368e14a48" configVersion="35b11800c0909741912f220a2b777e2100000000">
+			<Metadata name="AccumulationRegister.Остатки.Dimension.МодельСамоката" id="43634d65-f9cc-430d-8dc9-18b936984557"/>
+			<Metadata name="AccumulationRegister.Остатки.Resource.Количество" id="8238550e-59ee-4379-aae2-3c148a81011c"/>
+		</Metadata>
+		<Metadata name="Catalog.МодельСамоката" id="dd759b0e-d352-4ff6-8882-2148828ef05c" configVersion="57adaa7c90c0834099b81011b6a9fd2900000000"/>
+		<Metadata name="Catalog.ФизическиеЛица" id="ab90f865-db12-4a84-a073-e94e68a670d0" configVersion="4dc8bea5986f5a418da9c8a1fac72db700000000">
+			<Metadata name="Catalog.ФизическиеЛица.Attribute.ДатаРождения" id="452485a4-81f3-4e9e-aea3-68c2f678062b"/>
+			<Metadata name="Catalog.ФизическиеЛица.Attribute.Пол" id="8fa33cc8-3a90-4bd9-9c2d-1c2d5734daec"/>
+		</Metadata>
+		<Metadata name="Configuration.Конфигурация" id="1d27703a-c34e-4980-b391-bdad5f42aedf" configVersion="b45cd6c2d872694caf76533c096eb30c00000000"/>
+		<Metadata name="Document.Возврат" id="8d371797-fcde-4724-a3dd-57323b43ee07" configVersion="209cdf3d36fdff41a97b7cd374d54dfe00000000">
+			<Metadata name="Document.Возврат.Attribute.Самокат" id="2c9e8548-6ed1-4eb1-906e-2bcea2811c39"/>
+			<Metadata name="Document.Возврат.Attribute.Студент" id="c0fd8e5e-01d5-418c-b3cb-139a7e6a2d99"/>
+		</Metadata>
+		<Metadata name="Document.Закупка" id="fe0a2dd8-c39c-43b4-9059-cfb7c2b4580e" configVersion="9087a1f411a38643a23139efbff781c400000000">
+			<Metadata name="Document.Закупка.Attribute.Самокат" id="85c6b8e3-6b8c-4223-b177-879f11e77594"/>
+			<Metadata name="Document.Закупка.Attribute.Цена" id="a35975f1-5555-4b3b-a82f-c57cdd524f83"/>
+			<Metadata name="Document.Закупка.Attribute.Количество" id="e797bafc-e040-4bd1-bf10-37f8db806e86"/>
+		</Metadata>
+		<Metadata name="Document.СдачаВАренду" id="a3cb7ea4-5f63-4adb-a829-dda896f526cb" configVersion="5371a179575663469f2dd037bef2a69800000000">
+			<Metadata name="Document.СдачаВАренду.Attribute.Студент" id="723c79b4-7a67-4860-a3a9-5b4a8b091544"/>
+			<Metadata name="Document.СдачаВАренду.Attribute.Самокат" id="d5f7a18d-e7b5-4902-a828-b1116bbb864a"/>
+		</Metadata>
+		<Metadata name="Enum.Пол" id="c315b54f-51c4-4451-be7e-e0a1fd0a81cf" configVersion="11c5bec151503e4593714fa2b12358cc00000000">
+			<Metadata name="Enum.Пол.EnumValue.Мужской" id="8eeeaabb-2fb6-4030-aca7-3248e94fa000"/>
+			<Metadata name="Enum.Пол.EnumValue.Женский" id="d715d2f6-3ea2-49a5-968b-50380d684010"/>
+		</Metadata>
+		<Metadata name="HTTPService.HTTPСервис1" id="d8dcccc1-2ecb-464c-84a2-58981f5678b6" configVersion="63bc6aa8ed1a3345aaf83fbaecaa3e2700000000">
+			<Metadata name="HTTPService.HTTPСервис1.URLTemplate.get.Method.Метод1" id="1e9d6456-4897-4436-8444-ba77773dd4e2"/>
+			<Metadata name="HTTPService.HTTPСервис1.URLTemplate.get" id="44ebc50e-8e6e-46c6-a328-19a2d9b88c33"/>
+		</Metadata>
+		<Metadata name="HTTPService.HTTPСервис1.Module" id="d8dcccc1-2ecb-464c-84a2-58981f5678b6.0" configVersion="816e3d3a1ee84e4f8fcc364f1658a16000000000"/>
+		<Metadata name="InformationRegister.СтоимостьАренды" id="4d3b1e11-8a16-4706-8be5-dad49e48afd9" configVersion="f961f60fb0a95b4f8b7fea7b933dcb2a00000000">
+			<Metadata name="InformationRegister.СтоимостьАренды.Dimension.МодельСамоката" id="1f67918b-de3b-4b75-ac5d-97ee5138645c"/>
+			<Metadata name="InformationRegister.СтоимостьАренды.Resource.Цена" id="6f13b1b6-cd7e-4e0a-999b-0611b7ec5873"/>
+		</Metadata>
+		<Metadata name="InformationRegister.СтоимостьСамоката" id="53abb7e3-7649-4962-b6ab-64bd25e81293" configVersion="8b3500b731d5204191aa23cd6360946800000000">
+			<Metadata name="InformationRegister.СтоимостьСамоката.Attribute.Цена" id="12acf64e-dc9f-4a25-afa5-a176ad17162a"/>
+			<Metadata name="InformationRegister.СтоимостьСамоката.Dimension.МодельСамоката" id="a8086e3f-a643-4a18-85d6-288b3a758238"/>
+		</Metadata>
+		<Metadata name="Language.Русский" id="324e9711-eb2d-40e4-a348-25373565e5b8" configVersion="d13569e844a3fa4ea99c460c41cc6d6800000000"/>
+		<Metadata name="Role.ПолныеПрава" id="456be6ca-948e-4d81-a5ba-e95dbddc422c" configVersion="62b6c0ff64c0ea48839bef57003f53e600000000"/>
+		<Metadata name="Role.ПолныеПрава.Rights" id="456be6ca-948e-4d81-a5ba-e95dbddc422c.0" configVersion="d1b0cb67c009c84cad57d9fccfa52db700000000"/>
+		<Metadata name="Subsystem.АрендаСамокатов" id="27225f73-7862-475f-a2ca-8040a1f98604" configVersion="020e9511147a82499c4b5e1044f8ac6f00000000"/>
+		<Metadata name="Subsystem.АрендаСамокатов.CommandInterface" id="27225f73-7862-475f-a2ca-8040a1f98604.1" configVersion="aba1dd3c87d2ba4cbaf1fc18c756925e00000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
